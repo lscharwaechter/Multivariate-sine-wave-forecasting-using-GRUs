@@ -10,7 +10,7 @@ import torch.nn as nn
 # GRU input shape:  (N, L, H_in) for batch_first=True
 # N = batch size
 # L = sequence length
-# H_in = input size (feature dimensions
+# H_in = input size (feature dimensions)
 
 class GRUmodel(nn.Module):
 
