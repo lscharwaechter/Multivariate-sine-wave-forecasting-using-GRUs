@@ -34,7 +34,7 @@ model_save = 0
 model_name = "william"
 
 # Forecasting
-n_examples = 3 # How many batches to visualize
+n_examples = 3 # How many examples to visualize
 tf_steps = 250 # Teacher Forcing steps
 cl_steps = 3000 # Closed Loop Steps
 
