@@ -130,6 +130,7 @@ def train(GRUmodel, train_loader, validation_loader, batch_size,
             optimizer.step()
             # Save error
             sequence_errors.append(loss.item())
+        
         # Calculate the mean error of the epoch
         epoch_errors.append(np.mean(sequence_errors))
         print("Epoch: ", epoch+1, "/", num_epochs)
