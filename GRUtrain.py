@@ -170,7 +170,6 @@ def train(GRUmodel, train_loader, validation_loader, batch_size,
         th.save(best_weights,
             os.path.join(os.getcwd(),model_name + ".pt"))
 
-
 # %%  Feed the sine waves into the model and let it continue the signals
 
 def forecasting(GRUmodel, validation_loader, n_examples, tf_steps, cl_steps):
